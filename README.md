@@ -10,9 +10,11 @@ The RIC enables communication between your Lambda function code and the Lambda R
 
 ## Supported Node.js Versions
 
-- Node.js 22.x and above
+- Node.js 22.9.0 or later
 
 ## Installation
+
+On Linux, the native addon build requires Python 3.9 or later.
 
 ```bash
 npm install aws-lambda-ric
@@ -120,7 +122,7 @@ docker run -p 9000:8080 \
 
 ### Prerequisites
 
-- Node.js 22.x or later
+- Node.js 22.9.0 or later
 - npm
 - Docker (for container builds)
 
